@@ -17,8 +17,8 @@
     <h2>Cat Photo App</h2>
     <main>
         <h3>Cat Photos</h3>
-        <p>Click here to view more cat photos. <a href="https://www.pexels.com/search/cat/" target="_blank">Cat Photos
-                Website</a>
+        <p>Click here to view more cat photos. <a href="https://www.pexels.com/search/cat/" target="_blank">Cat
+                Photos</a>
         </p>
         <hr>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPCZf3UbDwjwh-DQxkt4GJf73sYfr19lFUoG94LbZNcEuj6GY29CtysA&s"
@@ -32,7 +32,7 @@
             <li>Lasagna</li>
         </ul>
         <hr>
-        <h3>Things cats hate</h3>
+        <p>Things cats <strong>hate</strong></p>
 
         <ol>
             <li>Flea treatment</li>
@@ -40,10 +40,21 @@
             <li>Often Humans</li>
         </ol>
         <img src="https://cats.com/wp-content/uploads/2018/09/how-many-cats-are-too-many.jpg" alt="Cats Group Photo">
+
         <form action="submit-cat">
+
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor </label>
+            <br>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+            <br>
+            <label for="loving"><input id="loving" type="checkbox" name="personality">Loving</label>
+            <br>
             <input type="text" placeholder="Cat Photo URL" required>
-            <button>Submit</button>
+
+            <button type="submit">Submit</button>
+
         </form>
+
     </main>
 
     <footer> &copy; 2025 Cat Loving Photos</footer>
